@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+*::selection{
+    color: #fff;
+    background-color: #000;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+#page1{
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+    padding: 0 1vw;
+    padding-top: 20vh;
+}
+
+#page1 h1{
+    font-size: 15vw;
+    text-transform: uppercase;
+    font-family: futura;
+    line-height: 12vw;
+    letter-spacing: -5px;
+}
+
+#video-container{
+    width: 100%;
+    height: 100vw;
+    background-color: aqua;
+    margin-top: 1vw;
+}
